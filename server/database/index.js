@@ -19,6 +19,7 @@ class Database {
   }
 
   query(query, ...args) {
+    process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
     this._pool.connect((err, client, done) => {
       if (err) throw err;
       const params = args.length === 2 ? args[0] : [];
