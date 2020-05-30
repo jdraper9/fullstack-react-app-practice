@@ -1,2 +1,3 @@
-# fullstack-react-app-practice
-brushing up on full stack skills using React, Postgres, Node
+# weather app
+
+A simple weather app, built following along a tutorial using React, Express, and PostgreSQL.
